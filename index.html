@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+    <title>QuestLife</title>
+</head>
+<body class="body">
+    <div class="container">
+        <div class="profile">
+            <div class="date"></div>
+            <h1 class="greetings">Hola Robin</h1>
+            <span class="profile__caption">
+                Lets play together<br>We'll conquer this stage!
+            </span>
+        </div>
+        <div class="add-quest">
+            <input type="text" class="add-quest__input" placeholder="Set new quest">
+            <i class="fa-solid fa-feather add-quest__icon"></i>
+        </div>
+        <div class="section-quest">
+            <h3 class="active-quest section-quest__heading">Active quest</h3>
+            <ul class="quest-list">
+                <li class="quest-item">
+                    <i class="fa-regular fa-circle quest-item__check quest-item__icon" data="done"></i>
+                    <p class="text">Quest in progress</p>
+                    <i class="fa-solid fa-circle-xmark quest-item__cancel quest-item__icon" data="del"></i>
+                </li>
+            </ul>
+            <h3 class="pending-quest section-quest__heading">Pending quest</h3>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
