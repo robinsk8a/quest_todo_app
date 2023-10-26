@@ -54,6 +54,7 @@ ul {
 
 .body {
     height: 100vh;
+    width: 100vw;
     background: linear-gradient(to top, var(--emerald-300), var(--fountain-blue-300));
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -65,12 +66,27 @@ ul {
 
 .container {
     background: radial-gradient(to bottom, var(--emerald-300), var(--fountain-blue-300));
-    height: 80vh;
+    height: 90vh;
     width: 40rem;
     border-radius: 2.3rem;
     box-shadow: 0 0 2rem var(--emerald-950);
     padding: 2rem 3rem;
 }
+
+/* DATE */
+.date {
+    margin: 1rem -0.2REM;
+    padding: 0.6rem 1.1rem;
+    font-size: 1.4rem;
+    color: var(--emerald-900);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    width: max-content;
+    border-radius: 0.7rem;
+    background-color: var(--emerald-100);
+    box-shadow: 0 0.2rem 0.5rem var(--emerald-900);
+}
+
 
 /* PROFILE */
 .profile {
@@ -85,7 +101,7 @@ ul {
     letter-spacing: 0.12rem;
 }
 .profile__caption {
-    margin-top: 1.6rem;
+    margin: 1.6rem 1.2rem;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
     line-height: 2.4rem;
@@ -142,6 +158,7 @@ ul {
 .section-quest__heading {
     font-size: 1.8rem;
     color: var(--fountain-blue-700);
+    margin-top: 3.5rem;
 }
 
 .quest-item {
